@@ -9,7 +9,7 @@ In the first two part, the model adopts the traditional DDPM method for training
 
 ### Encoder-Decoder design
 
-![UNet_revised](/Users/wesleysylvan/Documents/Documents/PKU Documents/课程学习/大一上课表/Machine Learning/Diffusion_Lab/illustrations/UNet_revised.png)
+![UNet_revised](illustrations/UNet_revised.png)
 
 The model adopts a basic U-Net structure with convolutinal layers and pooling layers with Group Norm. As is mentioned in He's paper, a bottleneck design is added to force the model to learn a compact representation of the images. 
 
